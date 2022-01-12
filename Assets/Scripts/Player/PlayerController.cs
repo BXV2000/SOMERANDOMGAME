@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : Creatures
-{
+{   
+    private IInteracables interactGO;
     Animator anim;
     void Start()
     {
@@ -14,6 +15,7 @@ public class PlayerController : Creatures
     void Update()
     {
         Move();
+        Interact();
     }
     override protected void Move()
     {
@@ -39,7 +41,11 @@ public class PlayerController : Creatures
     {
         return;
     }
-
+    public void Interact()
+    {
+        if(Input.GetKeyDown(KeyCode.T))
+        interactGO.Interact();
+    }
     void MoveAnimationUpdate(Vector2 moveInput)
     {
         if(moveInput == Vector2.zero)
@@ -51,4 +57,14 @@ public class PlayerController : Creatures
             anim.SetBool("IsRunning", true);
         }
     }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        interactGO = collision.GetComponent<IInteracables>();
+        Debug.Log("Player collide sth");
+    }
+    void OnTriggerExit2D(Collider2D collsion)
+    {
+        interactGO = null;
+    }
+
 }
