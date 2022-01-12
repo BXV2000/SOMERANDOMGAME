@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scripts\Scriptables\Items\Consumable.cs" />
      <Compile Include="Assets\Scripts\Scriptables\Items\Equipments.cs" />
      <Compile Include="Assets\Scripts\Scriptables\Items\GameMaterials.cs" />
+     <Compile Include="Assets\Scripts\Scriptables\Items\Items.cs" />
      <Compile Include="Assets\Scripts\Units\Bases\Buildings.cs" />
      <Compile Include="Assets\Scripts\Units\Bases\Creatures.cs" />
      <Compile Include="Assets\Scripts\Units\Bases\DamageableObjects.cs" />
