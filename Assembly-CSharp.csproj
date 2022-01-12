@@ -679,16 +679,14 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/WorkSpace/Projects/GameNaoDo/SOMERANDOMGAME/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+ <HintPath>D:/WorkSpace/Projects/GameNaoDo/SOMERANDOMGAME/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras">
+ <HintPath>D:/WorkSpace/Projects/GameNaoDo/SOMERANDOMGAME/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{A047FE0C-DC2D-941E-5AFE-9F705CF023A8}</Project>
-      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{ACC3EE40-FD0D-C411-D946-A26D76DE2AAB}</Project>
-      <Name>Unity.2D.Tilemap.Extras</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
