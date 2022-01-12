@@ -115,7 +115,11 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 155
+=======
+  controlID: 452
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +144,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 62
+=======
+  controlID: 453
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +173,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 63
+=======
+  controlID: 502
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +259,11 @@ MonoBehaviour:
   - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
+<<<<<<< HEAD
 --- !u!114 &11
+=======
+--- !u!114 &12
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -395,9 +411,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 4aeeffff62fbffff883c0000
+=======
+      m_SelectedIDs: a43d0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 58fbffff9e3c0000
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -457,9 +479,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 4.1663256, y: 3.970248, z: -2.0742493}
     speed: 2
     m_Value: {x: 4.022827, y: 3.7629728, z: -2.0430174}
+=======
+    m_Target: {x: 7.926082, y: 3.8476076, z: -1.8184409}
+    speed: 2
+    m_Value: {x: 7.575964, y: 3.923431, z: -1.7431899}
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -509,9 +537,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 7.2527585
     speed: 2
     m_Value: 6.9404387
+=======
+    m_Target: 19.999313
+    speed: 2
+    m_Value: 20.941689
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -639,6 +673,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Prefabs/Items
   m_ViewMode: 1
   m_StartGridSize: 96
@@ -653,6 +688,22 @@ MonoBehaviour:
     m_SelectedIDs: 983d0000
     m_LastClickedID: 15768
     m_ExpandedIDs: 000000005e3d0000603d0000623d0000643d0000663d0000683d00006a3d00006c3d00006e3d000000ca9a3b
+=======
+    - Assets/Sprites/Characters
+  m_ViewMode: 1
+  m_StartGridSize: 96
+  m_LastFolders:
+  - Assets/Sprites/Characters
+  m_LastFoldersGridSize: 96
+  m_LastProjectPath: D:\WorkSpace\Projects\TaoMetQuaMucOi\SOMERANDOMGAME
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 222}
+    m_SelectedIDs: a43d0000
+    m_LastClickedID: 15780
+    m_ExpandedIDs: 00000000583d00005a3d00005c3d00005e3d0000603d0000623d0000643d0000663d0000683d00006a3d00006c3d00006e3d000000ca9a3b
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -680,7 +731,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: cc3c0000
     m_LastClickedID: 15564
+<<<<<<< HEAD
     m_ExpandedIDs: 000000005e3d0000603d0000623d0000643d0000663d0000683d00006a3d00006c3d00006e3d0000
+=======
+    m_ExpandedIDs: 00000000583d00005a3d00005c3d00005e3d0000603d0000623d0000643d0000663d0000683d00006a3d00006c3d00006e3d000000ca9a3b
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -707,8 +762,13 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000d43c00005e590000
+=======
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000d43c00005e590000203e0000
+>>>>>>> 4d22c3ef727c767b70d90fe0dadcec130ce55c2a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
