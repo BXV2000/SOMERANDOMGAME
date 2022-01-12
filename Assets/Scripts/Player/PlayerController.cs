@@ -60,6 +60,7 @@ public class PlayerController : Creatures
     void OnTriggerEnter2D(Collider2D collision)
     {
         interactGO = collision.GetComponent<IInteracables>();
+        Debug.Log("Player collide sth");
     }
     void OnTriggerExit2D(Collider2D collsion)
     {
