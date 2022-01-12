@@ -36,6 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Interfaces\IAutoSpawn.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\IInteracables.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Scriptables\Items\Consumable.cs" />
+     <Compile Include="Assets\Scripts\Scriptables\Items\Equipments.cs" />
+     <Compile Include="Assets\Scripts\Scriptables\Items\GameMaterials.cs" />
+     <Compile Include="Assets\Scripts\Units\Bases\Buildings.cs" />
+     <Compile Include="Assets\Scripts\Units\Bases\Creatures.cs" />
+     <Compile Include="Assets\Scripts\Units\Bases\DamageableObjects.cs" />
+     <Compile Include="Assets\Scripts\Units\Bases\Mobs.cs" />
+     <Compile Include="Assets\Scripts\Units\Bases\Resources.cs" />
+     <Compile Include="Assets\Scripts\Units\Mobs\Animals.cs" />
+     <Compile Include="Assets\Scripts\Units\Mobs\Enemies.cs" />
+     <Compile Include="Assets\Scripts\Units\Mobs\NPCs.cs" />
      <Compile Include="Assets\TEST.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\WorkSpace\Unity\2019.4.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
