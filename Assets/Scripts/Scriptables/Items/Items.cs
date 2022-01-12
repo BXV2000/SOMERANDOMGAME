@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "New Item", menuName = "Items/Nothing")]
 public abstract class Items : ScriptableObject
 {
     [SerializeField] protected int _id;
