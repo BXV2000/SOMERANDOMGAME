@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Consumable", menuName = "Items/Consumable")]
 public class Consumable : Items
 {
-    override protected void Use()
+    public override void Use()
     {
         return;
     }
