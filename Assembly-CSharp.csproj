@@ -57,7 +57,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Interfaces\IAutoSpawn.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IInteracables.cs" />
-     <Compile Include="Assets\Scripts\Scriptables\Items.cs" />
+     <Compile Include="Assets\Scripts\Scriptables\Bases\Items.cs" />
+     <Compile Include="Assets\Scripts\Scriptables\Items\Consumable.cs" />
+     <Compile Include="Assets\Scripts\Scriptables\Items\Equipments.cs" />
+     <Compile Include="Assets\Scripts\Scriptables\Items\GameMaterials.cs" />
      <Compile Include="Assets\Scripts\Units\Bases\Buildings.cs" />
      <Compile Include="Assets\Scripts\Units\Bases\Creatures.cs" />
      <Compile Include="Assets\Scripts\Units\Bases\DamageableObjects.cs" />
