@@ -4,10 +4,10 @@ using UnityEngine;
 
 public abstract class Items : ScriptableObject
 {
-    protected int _id;
-    protected string _name;
-    protected bool stackAble;
-    protected string description;
+    [SerializeField] protected int _id;
+    [SerializeField] protected string _name;
+    [SerializeField] protected bool stackAble;
+    [SerializeField] protected string description;
 
     protected abstract void Use();
 }
