@@ -55,8 +55,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Extra Tile Map Asset\Tests\Editor\PlaceholderTests.cs" />
-     <None Include="Assets\Extra Tile Map Asset\Tests\Editor\Unity.2D.Tilemap.Extras.EditorTests.asmdef" />
+     <Compile Include="Assets\com.unity.2d.tilemap.extras\Tests\Editor\PlaceholderTests.cs" />
+     <None Include="Assets\com.unity.2d.tilemap.extras\Tests\Editor\Unity.2D.Tilemap.Extras.EditorTests.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>D:/WorkSpace/Unity/2019.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
