@@ -50,9 +50,10 @@
      <Compile Include="Assets\Scripts\Units\Bases\ItemPrototype.cs" />
      <Compile Include="Assets\Scripts\Units\Bases\Mobs.cs" />
      <Compile Include="Assets\Scripts\Units\Bases\Resources.cs" />
-     <Compile Include="Assets\Scripts\Units\Mobs\Animals.cs" />
-     <Compile Include="Assets\Scripts\Units\Mobs\Enemies.cs" />
-     <Compile Include="Assets\Scripts\Units\Mobs\NPCs.cs" />
+     <Compile Include="Assets\Scripts\Units\Mobs\Base\Animals.cs" />
+     <Compile Include="Assets\Scripts\Units\Mobs\Base\Enemies.cs" />
+     <Compile Include="Assets\Scripts\Units\Mobs\Base\NPCs.cs" />
+     <Compile Include="Assets\Scripts\Units\Mobs\Enemies\Slime.cs" />
      <Compile Include="Assets\TEST.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:\UnityEditor\2019.4.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
