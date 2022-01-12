@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Creatures : DamageableObjects
 {
-    protected float speed;
+    [SerializeField] protected float speed;
 
     protected abstract void Move();
     protected abstract void Die();

@@ -4,10 +4,10 @@ using UnityEngine;
 
 public abstract class DamageableObjects : MonoBehaviour
 {
-    protected int _id;
-    protected string _name;
-    protected int hp;
-    protected int dmg;
+    [SerializeField] protected int _id;
+    [SerializeField] protected string _name;
+    [SerializeField] protected int hp;
+    [SerializeField] protected int dmg;
 
     protected abstract void TakeDmg(int dmg);
     protected abstract void HPEqual0();
