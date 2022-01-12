@@ -1,1 +1,6 @@
 /Library
+Assembly-CSharp.csproj
+Unity.2D.Tilemap.Extras.csproj
+Unity.2D.Tilemap.Extras.Editor.csproj
+SomeRandomGame.sln
+Unity.2D.Tilemap.Extras.Placeholder.EditorTests.csproj
