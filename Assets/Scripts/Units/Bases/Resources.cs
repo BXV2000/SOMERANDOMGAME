@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Resources : DamageableObjects, IInteracables, IAutoSpawn
+public abstract class Resources : DamageableObjects, IInteractables, IAutoSpawn
 {
     protected int maxMaterialCanHold;
     protected int currentMaterialHolding;

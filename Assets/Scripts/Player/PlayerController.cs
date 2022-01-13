@@ -1,17 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : Creatures
 {   
-    private IInteracables interactGO;
+    private IInteractables interactGO; public IInteractables _interactGO { set {interactGO = value;} }
     Animator anim;
     void Start()
     {
         anim = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         Move();
@@ -43,7 +39,7 @@ public class PlayerController : Creatures
     }
     public void Interact()
     {
-        if(Input.GetKeyDown(KeyCode.T))
+        if(Input.GetKeyDown(KeyCode.T) && interactGO != null)
         interactGO.Interact();
     }
     void MoveAnimationUpdate(Vector2 moveInput)
@@ -56,15 +52,6 @@ public class PlayerController : Creatures
         {
             anim.SetBool("IsRunning", true);
         }
-    }
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        interactGO = collision.GetComponent<IInteracables>();
-        Debug.Log("Player collide sth");
-    }
-    void OnTriggerExit2D(Collider2D collsion)
-    {
-        interactGO = null;
     }
 
 }

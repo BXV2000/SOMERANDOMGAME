@@ -10,6 +10,10 @@ public abstract class Items : ScriptableObject
     [SerializeField] protected Sprite _icon; public Sprite icon { get{return _icon;} }
     [SerializeField] protected bool _stackAble; public bool stackAble  { get {return _stackAble;} }
     [SerializeField] protected string _description; public string description { get {return _description;} }
+    
+    [Header("Unity Collider Size")]
+    [SerializeField] protected int _sizeX; public int sizeX  { get {return _sizeX;} }
+    [SerializeField] protected int _sizeY; public int sizeY { get {return _sizeY;} }
 
     public abstract void Use();
 }
