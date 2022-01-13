@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class Slime : Enemies
 {
@@ -9,18 +10,18 @@ public class Slime : Enemies
     private void Start() 
     {
         InvokeRepeating("ChoseRandomDir", 0f, 3f);
+        targetChecker.GetComponent<TargetChecker>().SetMyParent(this.gameObject);
     }
     private void Update() 
     {
         if(!target)
             Move();
-        else
-            Chase();
     }
 
     #region Override
     override protected void Move()
     {
+        Debug.Log("Move");
         transform.position += (transform.position - (Vector3)randomPoint).normalized * speed * Time.deltaTime;
     }
     override protected void Die()
@@ -39,11 +40,21 @@ public class Slime : Enemies
     {
         return;
     }
+    public override void DetectTarget(GameObject _target)
+    {
+        target = _target;
+        Chase();
+    }
 
     #endregion
     protected void Chase()
     {
-        return;
+        if(target)
+            this.GetComponent<AIDestinationSetter>().target = target.transform;
+        else
+        {
+            this.GetComponent<AIDestinationSetter>().target = null;
+        }
     }
 
     private void ChoseRandomDir()
@@ -53,8 +64,12 @@ public class Slime : Enemies
         randomPoint = new Vector2(randx, randy);
     }
 
-    private void OnCollisionEnter(Collision other) 
+    private void OnCollisionEnter2D(Collision2D other) 
     {
         // TakeDmg(other.gameObject.GetComponent<DamageableObjects>().dmg);
+    }
+    private void SetTarget()
+    {
+        return;
     }
 }

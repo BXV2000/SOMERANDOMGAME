@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Units\Mobs\Base\Enemies.cs" />
      <Compile Include="Assets\Scripts\Units\Mobs\Base\NPCs.cs" />
      <Compile Include="Assets\Scripts\Units\Mobs\Enemies\Slime.cs" />
+     <Compile Include="Assets\Scripts\Units\Mobs\Enemies\TargetChecker.cs" />
      <Compile Include="Assets\TEST.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\WorkSpace\Unity\2019.4.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

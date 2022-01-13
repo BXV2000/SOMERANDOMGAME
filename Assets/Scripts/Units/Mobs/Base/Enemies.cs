@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemies : Mobs
 {
+    [SerializeField] protected GameObject targetChecker;
     override protected void Move()
     {
         return;
@@ -21,6 +22,10 @@ public class Enemies : Mobs
         return;
     }
     override protected void Attack() 
+    {
+        return;
+    }
+    public virtual void DetectTarget(GameObject target)
     {
         return;
     }
