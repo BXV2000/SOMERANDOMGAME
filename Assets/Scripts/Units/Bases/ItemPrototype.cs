@@ -11,6 +11,10 @@ public class ItemPrototype : MonoBehaviour, IInteractables
         spriteRenderer = GetComponent<SpriteRenderer>();
         colliderComponent = GetComponent<CapsuleCollider2D>();
     }
+    void Start()
+    {
+        UpdateItemPrototypeData();
+    }
 
     public void UpdateItemPrototypeData()
     {

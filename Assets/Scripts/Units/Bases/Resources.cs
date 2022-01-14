@@ -6,11 +6,19 @@ public class Resources : DamageableObjects, IInteractables, IAutoSpawn
 {
     protected int maxMaterialCanHold;
     protected int currentMaterialHolding;
+    protected GameObject itemPrototype;
     [SerializeField]protected Items materialsHolding;
 
+    void Start()
+    {
+        itemPrototype = UnityEngine.Resources.Load<GameObject>("Prefabs/Items/ItemPrototype");
+        itemPrototype.GetComponent<ItemPrototype>().item = materialsHolding;
+        SpawnMaterials();
+    }
     protected void SpawnMaterials()
     {
-        
+        Instantiate(itemPrototype);
+
     }
     protected void GainMaterials()
     {

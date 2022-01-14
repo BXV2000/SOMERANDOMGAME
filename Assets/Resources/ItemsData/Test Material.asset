@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: 0
   _name: Rau Muc
-  stackAble: 1
-  description: Dung de nau canh
+  _icon: {fileID: 3328763754989776407, guid: cd1023c46a6dec74d8913f446f263f14, type: 3}
+  _stackAble: 0
+  _description: 
+  _sizeX: 1
+  _sizeY: 1
