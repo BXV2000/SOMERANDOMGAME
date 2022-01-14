@@ -2,14 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Resources : DamageableObjects, IInteractables, IAutoSpawn
+public class Resources : DamageableObjects, IInteractables, IAutoSpawn
 {
     protected int maxMaterialCanHold;
     protected int currentMaterialHolding;
-    protected Items materialsHolding;
+    [SerializeField]protected Items materialsHolding;
 
-    protected abstract void SpawnMaterials();
-    protected abstract void GainMaterials();
+    protected void SpawnMaterials()
+    {
+        
+    }
+    protected void GainMaterials()
+    {
+
+    }
     public void Interact()
     {
         return;
@@ -21,5 +27,13 @@ public abstract class Resources : DamageableObjects, IInteractables, IAutoSpawn
     public void Spawn()
     {
         return;
+    }
+    protected override void TakeDmg(int dmg)
+    {
+        
+    }
+    protected override void HPEqual0()
+    {
+
     }
 }

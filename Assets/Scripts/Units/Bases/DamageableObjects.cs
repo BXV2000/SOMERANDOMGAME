@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class DamageableObjects : MonoBehaviour
 {
@@ -11,6 +9,4 @@ public abstract class DamageableObjects : MonoBehaviour
 
     protected abstract void TakeDmg(int dmg);
     protected abstract void HPEqual0();
-    protected abstract void Attack();
-
 }

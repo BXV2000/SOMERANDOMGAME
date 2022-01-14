@@ -8,4 +8,5 @@ public abstract class Creatures : DamageableObjects
 
     protected abstract void Move();
     protected abstract void Die();
+    protected abstract void Attack();
 }
