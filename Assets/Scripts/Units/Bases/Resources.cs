@@ -17,8 +17,8 @@ public class Resources : DamageableObjects, IInteractables, IAutoSpawn
     }
     protected void SpawnMaterials()
     {
-        Instantiate(itemPrototype);
-
+        Vector2 spawnPosition = new Vector2(transform.position.x + Random.Range(-0.5f, 0.5f), transform.position.y + Random.Range(-0.5f, 0.5f));
+        Instantiate(itemPrototype, spawnPosition, Quaternion.identity);
     }
     protected void GainMaterials()
     {
