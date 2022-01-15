@@ -55,6 +55,8 @@
      <Compile Include="Assets\Scripts\Units\Mobs\Base\Enemies.cs" />
      <Compile Include="Assets\Scripts\Units\Mobs\Base\NPCs.cs" />
      <Compile Include="Assets\Scripts\Units\Mobs\Enemies\Slime.cs" />
+     <Compile Include="Assets\Scripts\Units\Resource\NonrenewableResources.cs" />
+     <Compile Include="Assets\Scripts\Units\Resource\RenewableResources.cs" />
      <Compile Include="Assets\TEST.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:\UnityEditor\2019.4.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
