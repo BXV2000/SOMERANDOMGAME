@@ -97,4 +97,8 @@ MonoBehaviour:
   _id: 0
   _name: 
   hp: 0
+  maxMaterialCanHold: 5
   materialsHolding: {fileID: 11400000, guid: 7069659bd8688e54d92d4bb095eefba6, type: 2}
+  havingMaterialImg: {fileID: 21300000, guid: 32b71c494fdafe6498506b1c4a48cf3f, type: 3}
+  notHavingMaterialImg: {fileID: 21300000, guid: d064090a88b93f743a2d9100869b3391,
+    type: 3}

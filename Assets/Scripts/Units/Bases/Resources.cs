@@ -2,7 +2,7 @@
 
 public abstract class Resources : DamageableObjects, IAutoSpawn
 {
-    protected int maxMaterialCanHold;
+    [SerializeField]protected int maxMaterialCanHold;
     protected int currentMaterialHolding;
     protected GameObject itemPrototype;
     [SerializeField]protected Items materialsHolding;
