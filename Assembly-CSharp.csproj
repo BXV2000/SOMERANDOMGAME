@@ -39,6 +39,9 @@
      <Compile Include="Assets\Scripts\Bag\Bag.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IAutoSpawn.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IInteractables.cs" />
+     <Compile Include="Assets\Scripts\Manager\GameEvent\EventListener.cs" />
+     <Compile Include="Assets\Scripts\Manager\GameEvent\EventManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\GameEvent\GameEvent.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerInteractCollider.cs" />
      <Compile Include="Assets\Scripts\Scriptables\Items\Consumable.cs" />
