@@ -6,7 +6,7 @@ public class PlayerController : Creatures
 {   
     public float attackRange = 0f;
     float saveInput;
-
+    bool openStatus = false;
 
     private IInteracables interactGO;
     Animator anim;
@@ -22,6 +22,10 @@ public class PlayerController : Creatures
         Interact();
         if(Input.GetKeyDown(KeyCode.Space)){
             Attack();
+        }
+        if(Input.GetKeyDown(KeyCode.I)){
+            OpenInventory();
+            openStatus = !openStatus;
         }
     }
     override protected void Move()
@@ -52,7 +56,7 @@ public class PlayerController : Creatures
         // foreach(Collider2D enemy in hitEnemies){
         //     Debug.Log("Hit");
         // }
-                
+
         if (saveInput>0){
             Debug.Log("Right");
         }
@@ -78,6 +82,14 @@ public class PlayerController : Creatures
             anim.SetBool("IsRunning", true);
         }
     }
+
+    void OpenInventory(){
+        if(openStatus==false)
+            Debug.Log("Inventory Opened");
+        if(openStatus==true)
+            Debug.Log("Inventory Closed");
+    }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         interactGO = collision.GetComponent<IInteracables>();
