@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class RenewableResources : Resources
+public class RenewableResources : Resource
 {
     protected int defaultHP;
     [SerializeField] protected Sprite havingMaterialImg;

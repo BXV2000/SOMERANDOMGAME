@@ -8,7 +8,7 @@ public class PlayerController : Creatures
     float saveInput;
     bool openStatus = false;
 
-    private IInteracables interactGO;
+    public IInteractables interactGO;
     Animator anim;
     void Start()
     {
@@ -92,7 +92,7 @@ public class PlayerController : Creatures
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        interactGO = collision.GetComponent<IInteracables>();
+        interactGO = collision.GetComponent<IInteractables>();
         Debug.Log("Player collide sth");
     }
     void OnTriggerExit2D(Collider2D collsion)

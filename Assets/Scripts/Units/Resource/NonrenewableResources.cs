@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class NonrenewableResources : Resources
+public class NonrenewableResources : Resource 
 {
     protected int defaultHP;
     [SerializeField] protected Sprite havingMaterialImg;

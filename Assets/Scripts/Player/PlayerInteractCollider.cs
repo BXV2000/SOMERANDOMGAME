@@ -11,10 +11,10 @@ public class PlayerInteractCollider : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        playerController._interactGO = collision.GetComponent<IInteractables>();
+        playerController.interactGO = collision.GetComponent<IInteractables>();
     }
     void OnTriggerExit2D(Collider2D collsion)
     {
-        playerController._interactGO = null;
+        playerController.interactGO = null;
     }
 }
